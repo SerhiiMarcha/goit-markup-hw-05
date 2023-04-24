@@ -629,8 +629,8 @@ img {
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
   cursor: pointer;
-  transition-property: color, background-color;
-  transition-duration: 250ms;
+  transition-property: color, background-color, border, box-shadow;
+  transition-duration: 250ms, 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -661,14 +661,15 @@ img {
 .pf-link {
   display: block;
   transition-property: color, background-color;
-  transition-duration: 250ms;
+  transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pf-link:hover,
 .pf-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .pf-link-popup {
